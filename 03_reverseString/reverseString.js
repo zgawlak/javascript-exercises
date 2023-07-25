@@ -4,7 +4,6 @@ const reverseString = function (string) {
         stringArray.push(string.charAt(i));
     }
     let reversedArray = stringArray.reverse();
-    console.log(reversedArray);
     return reversedArray.join("");
 };
 
